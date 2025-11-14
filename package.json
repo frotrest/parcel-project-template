@@ -2,9 +2,12 @@
   "name": "dudeshape",
   "version": "1.0.0",
   "description": "Landing page Dudeshape",
+  "type": "module",
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
+    "lint": "eslint src",
+    "format": "prettier --write src",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
