@@ -1,4 +1,4 @@
-name: Deploy Dudeshape to GitHub Pages
+name: Deploy Projeect to GitHub Pages
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
         run: npx eslint src
 
       - name: Run Prettier check
-        run: npx prettier --check "src/**/*.{js,scss,html}" ".github/**/*.yml"
+        run: npx prettier --check "src/**/*.{js,scss,html}"
 
       - name: Build project
         run: npm run build
