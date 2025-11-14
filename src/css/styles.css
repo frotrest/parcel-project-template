@@ -25,10 +25,10 @@ body {
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 .card button:hover {
-  background: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
 }
 .card.active h1 {
   color: #e74c3c;
