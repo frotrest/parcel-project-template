@@ -4,8 +4,8 @@
   "description": "Landing page Dudeshape",
   "type": "module",
   "scripts": {
-    "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /dudeshape/",
     "lint": "eslint src",
     "format": "prettier --write src",
     "predeploy": "npm run build",
