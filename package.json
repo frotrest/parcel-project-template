@@ -1,7 +1,7 @@
 {
   "name": "parcel-project-template",
   "version": "1.0.0",
-  "description": "Landing page parcel",
+  "description": "Landing page parcel by Frotrest",
   "type": "module",
   "scripts": {
     "dev": "parcel src/index.html",
