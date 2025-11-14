@@ -1,26 +1,26 @@
 {
-  "name": "parcel-project-template",
+  "name": "ColorRawe",
   "version": "1.0.0",
   "description": "Landing page parcel by Frotrest",
   "type": "module",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "build": "parcel build src/*.html --public-url /ColorRawe/",
     "lint": "eslint src",
     "format": "prettier --write src",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frotrest/parcel-project-template.git"
+    "url": "git+https://github.com/frotrest/ColorRawe.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "colorrawe landing",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frotrest/parcel-project-template/issues"
   },
-  "homepage": "https://frotrest.github.io/parcel-project-template",
+  "homepage": "https://frotrest.github.io/ColorRawe",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.39.1",
