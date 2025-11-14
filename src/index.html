@@ -1,17 +1,236 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcel-template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>ColorRawe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="card">
-      <img src="./img/cat.jpg" alt="cat" />
-      <h1>Hello Dudeshape 🚀</h1>
-      <button id="colorBtn">Change Color</button>
-    </div>
-    <script type="module" src="./index.js"></script>
+    <header class="header">
+      <div class="container header-content" data-animate="fadeIn">
+        <div class="logo">
+          <img src="./Images/logo.png" alt="logo" class="logo__item" />
+        </div>
+        <nav class="navbar">
+          <a href="#" class="navbar__item">Main page</a>
+          <a href="#" class="navbar__item">Benefits</a>
+          <a href="#" class="navbar__item">Advantages</a>
+          <a href="#" class="navbar__item">Reviews</a>
+          <a href="#" class="navbar__item">Contacts</a>
+          <a href="#" class="navbar__item">Order</a>
+        </nav>
+        <div class="translate">
+          <a href="#" class="translate__item">Ua</a>
+          <a href="#" class="translate__item">Eng</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section id="first-back">
+        <div class="container first-sect" data-animate="fadeInLeft">
+          <div class="info-logo">
+            <img
+              src="./Images/logo.png"
+              alt="logo-main"
+              class="info-logo__item"
+            />
+            <h6 class="info-logo__title">С&R</h6>
+          </div>
+          <h1 class="first-sect__title">ColoRawe</h1>
+          <h2 class="first-sect__podtitle">Your dream Nike</h2>
+          <p class="first-sect__item">
+            On this site you can find custom Nike sneakers of your dreams.
+            <br />
+            The original company caт`t create such beautiful <br />
+            sneakers as we do. <br />
+            Good luck finding your way in the world of custom sneakers.
+          </p>
+          <button class="first-sect__btn">Buy my Nike</button>
+        </div>
+      </section>
+      <section id="two-back">
+        <div class="container two-sect" data-animate="fadeInRight">
+          <div class="info-buy">
+            <div class="buyer-info">
+              <h5 class="buyer-info__title">
+                Premium <br />
+                Quality
+              </h5>
+              <img src="./Images/stars.png" alt="stars" class="buyer-info__img" />
+            </div>
+            <div class="buyer-info">
+              <img src="./Images/colors.png" alt="colors" class="buyer-info__img" />
+              <h5 class="buyer-info__title">
+                Indelible <br />
+                paint
+              </h5>
+            </div>
+            <div class="buyer-info">
+              <h5 class="buyer-info__title">
+                Fast <br />
+                shipping
+              </h5>
+              <img src="./Images/car.png" alt="car" class="buyer-info__img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews">
+        <div class="container review" data-animate="fadeInLeft">
+          <h2 id="review-title" class="review__title">Review</h2>
+          <div class="cards">
+            <div class="card">
+              <p class="card__title">
+                Sneakers are very comfortable and well painted, nothing has worn
+                off in a year.
+              </p>
+              <span class="card__number">25.11</span>
+              <div class="autor">
+                <img
+                  src="./Images/autor-one.png"
+                  alt="autor-one"
+                  class="autor__img"
+                />
+                <div class="autor-content">
+                  <h6 class="autor-content__title">John Teylor</h6>
+                  <p class="autor-content__item">With us from 2018</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card__title">
+                I'm very happy with this color scheme. They match all my
+                clothes.
+              </p>
+              <span class="card__number">05.01</span>
+              <div class="autor">
+                <img
+                  src="./Images/autor-two.png"
+                  alt="autor-two"
+                  class="autor__img"
+                />
+                <div class="autor-content">
+                  <h6 class="autor-content__title">Elizabeth Garsia</h6>
+                  <p class="autor-content__item">With us from 2020</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card__title">
+                Just right if you need to go to a party. I use them actively,
+                the paint is super.
+              </p>
+              <span class="card__number">18.06</span>
+              <div class="autor">
+                <img src="./Images/autor-three.png" alt="autor-three" />
+                <div class="autor-content">
+                  <h6 class="autor-content__title">Elizabeth Garsia</h6>
+                  <p class="autor-content__item">With us from 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="order-back">
+        <div class="container order-content" data-animate="fadeInRight">
+          <h2 class="order-content__title">Order</h2>
+          <form class="form">
+            <fieldset class="form-content">
+              <label>
+                <input
+                  type="email"
+                  placeholder="Write your email"
+                  class="form-content__item"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  type="text"
+                  placeholder="Your Country"
+                  class="form-content__item"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  type="text"
+                  placeholder="Your City"
+                  class="form-content__item"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  type="text"
+                  placeholder="Your Adress"
+                  class="form-content__item"
+                  required
+                />
+              </label>
+              <button type="submit" class="form-content__btn">
+                Order my Nike
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-content" data-animate="fadeInUp">
+        <div class="questions">
+          <div class="question">
+            <p class="question__title">Have a question?</p>
+            <a
+              href="mailto:ColoRawe_support@gmail.com"
+              class="question__title--link"
+              >ColoRawe_support@gmail.com</a
+            >
+          </div>
+          <div class="question">
+            <p class="question__title">Have a proposal for cooperation?</p>
+            <a
+              href="mailto:ColoRawe_Cooperation@gmail.com"
+              class="question__title--link"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+          </div>
+          <div class="question">
+            <p class="question__title">Advertising questions?</p>
+            <a
+              href="mailto:ColoRawe_Advertising@gmail.com"
+              class="question__title--link"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="end-footer">
+          <div class="footer-info">
+            <span class="footer-info__title"
+              >2022 ColoRawe @All rights reserved</span
+            >
+            <p class="footer-info__item">United States</p>
+          </div>
+          <div class="logo-footer">
+            <img
+              src="./Images/logo.png"
+              alt="logo-footer"
+              class="logo-footer__img"
+            />
+            <h6 class="logo-footer__title">С&R</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
