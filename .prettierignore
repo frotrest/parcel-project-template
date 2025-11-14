@@ -1,2 +1,10 @@
-*
-!src/
+dist/
+build/
+
+node_modules/
+
+.github/
+
+*.log
+
+.cache/
